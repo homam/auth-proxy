@@ -1,0 +1,32 @@
+{
+  "name": "auth-proxy",
+  "version": "0.0.1",
+  "description": "Add authentication to any website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^3.24.0",
+    "fastify-formbody": "^5.2.0",
+    "fastify-static": "^4.5.0",
+    "handlebars": "^4.7.7",
+    "point-of-view": "^4.15.2",
+    "jsonwebtoken": "^8.5.1",
+    "http-proxy": "^1.18.1",
+    "express": "^4.17.1",
+    "cookie-parser": "^1.4.5",
+    "express-openid-connect": "^2.5.1",
+    "express-session": "^1.17.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
